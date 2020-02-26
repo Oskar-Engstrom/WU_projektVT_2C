@@ -1,0 +1,340 @@
+/* iPhone 11 Pro / X - 1 */
+
+position: relative;
+width: 375px;
+height: 812px;
+
+background: #FFFFFF;
+
+
+/* iPhone 11 Pro / X - 1 */
+
+position: absolute;
+width: 375px;
+height: 812px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+
+
+/* bakgrund för makerspace 1 */
+
+position: absolute;
+width: 434px;
+height: 832px;
+left: -30px;
+top: 0px;
+
+background: url(bakgrund för makerspace.png);
+
+
+/* Group 1 */
+
+position: absolute;
+width: 250px;
+height: 398px;
+left: 62px;
+top: 268px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 250px;
+height: 100px;
+left: 62px;
+top: 268px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 250px;
+height: 100px;
+left: 62px;
+top: 417px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 250px;
+height: 100px;
+left: 62px;
+top: 566px;
+
+background: #FFFFFF;
+
+
+/* Frame 1 */
+
+position: absolute;
+width: 1px;
+height: 17px;
+left: 187px;
+top: 305px;
+
+
+
+/* bakgrund för makerspace 1 */
+
+position: absolute;
+width: 434px;
+height: 876px;
+left: -28px;
+top: 0px;
+
+background: url(makerspace2.png);
+
+
+/* bakgrund för makerspace 1 */
+
+position: absolute;
+width: 434px;
+height: 876px;
+left: -22px;
+top: 0px;
+
+background: url(makerspace2.png);
+
+
+/* Group 1 */
+
+position: absolute;
+width: 250px;
+height: 398px;
+left: 62px;
+top: 268px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 250px;
+height: 100px;
+left: 62px;
+top: 268px;
+
+background: #FFFFFF;
+box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 250px;
+height: 100px;
+left: 62px;
+top: 417px;
+
+background: #FFFFFF;
+box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25), -5px -5px 0px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 4 */
+
+position: absolute;
+width: 250px;
+height: 100px;
+left: 62px;
+top: 566px;
+
+background: #C4C4C4;
+box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25), -5px -5px 0px rgba(0, 0, 0, 0.25);
+
+
+/* Frame 1 */
+
+position: absolute;
+width: 1px;
+height: 17px;
+left: 187px;
+top: 305px;
+
+
+
+/* Group 5 */
+
+position: absolute;
+width: 241px;
+height: 393px;
+left: 67px;
+top: 273px;
+
+
+
+/* Group 2 */
+
+position: absolute;
+width: 240px;
+height: 95px;
+left: 67px;
+top: 273px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 64px;
+height: 27px;
+left: 243px;
+top: 341px;
+
+background: #1A102B;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 240px;
+height: 90px;
+left: 67px;
+top: 273px;
+
+background: #1A0F2A;
+
+
+/* Group 3 */
+
+position: absolute;
+width: 240px;
+height: 95px;
+left: 67px;
+top: 422px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 64px;
+height: 27px;
+left: 243px;
+top: 490px;
+
+background: #1A102B;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 240px;
+height: 90px;
+left: 67px;
+top: 422px;
+
+background: #1A0F2A;
+
+
+/* Group 4 */
+
+position: absolute;
+width: 240px;
+height: 95px;
+left: 68px;
+top: 571px;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+width: 64px;
+height: 27px;
+left: 244px;
+top: 639px;
+
+background: #1A102B;
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 240px;
+height: 90px;
+left: 68px;
+top: 571px;
+
+background: #1A0F2A;
+
+
+/* Enheter */
+
+position: absolute;
+width: 209px;
+height: 57px;
+left: calc(50% - 209px/2 - 6px);
+top: calc(50% - 57px/2 - 85.5px);
+
+font-family: Poly;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Information */
+
+position: absolute;
+width: 216px;
+height: 57px;
+left: 77px;
+top: 438px;
+
+font-family: Poly;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Felanmäl */
+
+position: absolute;
+width: 209px;
+height: 57px;
+left: 85px;
+top: 587px;
+
+font-family: Poly;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Kopia av makerspace 1 */
+
+position: absolute;
+width: 383px;
+height: 89px;
+left: calc(50% - 383px/2 + 16px);
+top: calc(50% - 89px/2 - 271.5px);
+
+background: url(Kopia av makerspace.png);
