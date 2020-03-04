@@ -7,10 +7,7 @@
 }
 
 .body{
-
-    position: relative;
-width: 375px;
-height: 812px;
+    background-image: url("../img/Figma/bakgrund.png");
 }
 
 .wrapper{
@@ -45,24 +42,22 @@ ul{
     list-style-type: none;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
+    height: 100%;
     
 }
 
 li{
     display: flex;
-    border-right: solid white 1px;
-    border-left: solid white 1px;
     align-items: center;
     justify-content: center;
-   
-    color: white;
+    margin: 3vh 0 3vh 0;
     width: 250px;
     height: 100px;
-    background-color:white;
+    position: relative;
+    font-size: 40px;
 }
 li:first-child{
     border-left: none;
@@ -72,40 +67,26 @@ li:last-child{
     border-right: none;
 }
 
+li .bing {
+    position: absolute;
+    bottom: -1px;
+    right: 5px;
+    height: 10px;
+    width: 50px;
+    
+}
+
+li .bon {
+    height: 100%;
+    width: 100%;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .a{
-    position: absolute;
-width: 250px;
-height: 100px;
-left: 62px;
-top: 268px;
-
-background: #FFFFFF;
-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-.b{
-
-    position: absolute;
-    width: 250px;
-    height: 100px;
-    left: 62px;
-    top: 417px;
-    
-    background: #FFFFFF;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25), -5px -5px 0px rgba(0, 0, 0, 0.25);
-
-}
-
-.c{
-    position: absolute;
-    width: 250px;
-    height: 100px;
-    left: 62px;
-    top: 566px;
-    
-    background: #FFFFFF;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25), -5px -5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 
