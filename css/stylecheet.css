@@ -1,36 +1,53 @@
-*{
+body,body *{
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(7,7,32);
+    background-color: gray;
     color: white;
 
 }
 
-.body{
+body{
     background-image: url("../img/Figma/bakgrund.png");
+    background-color: unset;
+    background: no-repeat;
+    background-size: cover;
+    position: relative;
+  
 }
 
 .wrapper{
     display: grid;
     width: 100vw;
     height: 100vh;
-    
-    grid-template-rows:20vh 5fr;
+    position: relative;
+    grid-template-rows:10vh 5fr;
     grid-template-areas: 
     "he he"
     "na na"
     ;
+    background: unset;
 }
 
-.he{
-    display: flex;
-    grid-area: he;
-    justify-content: center;
-    align-items: center; 
-    border: solid white 1px;
-    background: rgb(7,7,32);
-    border-width: 1px;
-    font-size: 36px;
+.backa{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 5;
+    top: 0;
+
+
+}
+
+.backa img{
+    height: 100%;
+    
+}
+    
+figure img{
+
+    width: 90%;
+    margin: 5%;
+    
 }
 
 .na{
@@ -45,12 +62,9 @@ ul{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100%;
-   
-    
 }
 
-li{
+.a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +104,7 @@ li .bon {
 }
 
 li .bonk {
-    height: 50%;
+    height: 100%;
     width: 100%;
     border: 5px solid white;
     border-radius: 100px;
@@ -115,13 +129,33 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3vh 0 3vh 0;
-    width: 250px;
-    height: 100px;
+    width: 280px;
+    margin: 15px;
     position: relative;
     font-size: 40px;
- 
 }
+.bink{
+
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    right: 20px;
+}
+.g{
+    background-color: green;
+}
+.r{
+    background-color: red;
+}
+.o{
+    background-color: orange;
+}
+.y{
+    background-color: yellow;
+}
+
+
 
 .active{
     background-color: rgb(23,23,46);
