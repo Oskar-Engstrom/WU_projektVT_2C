@@ -46,6 +46,7 @@ ul{
     align-items: center;
     flex-direction: column;
     height: 100%;
+   
     
 }
 
@@ -58,7 +59,10 @@ li{
     height: 100px;
     position: relative;
     font-size: 40px;
+
+    
 }
+
 li:first-child{
     border-left: none;
 }
@@ -85,10 +89,39 @@ li .bon {
     justify-content: center;
 }
 
-.a{
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+li .bonk {
+    height: 50%;
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+a{
+    text-decoration: none;
+    background-color: rgb(7,7,32, 0);
+}
+
+.a{
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 0 3vh 0;
+    width: 250px;
+    height: 100px;
+    position: relative;
+    font-size: 40px;
+ 
+}
 
 .active{
     background-color: rgb(23,23,46);
