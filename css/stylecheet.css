@@ -1,18 +1,168 @@
 body,body *{
     margin: 0;
     box-sizing: border-box;
-    background-color: gray;
+    background-color: unset;
     color: white;
 
 }
 
 body{
-    background-image: url("../img/Figma/bakgrund.png");
+    background-image: url("../img/Figma/bakgrundmakerspace.png");
     background-color: unset;
-    background: no-repeat;
-    background-size: cover;
+    background-position: center;
     position: relative;
-  
+    background-repeat: no-repeat;
+    background-size: auto 812px;
+    object-fit: cover;
+
+    
+    
+}
+
+.arrow{
+
+   position: absolute;
+   left: 10px;
+   top: 10px;
+   width: 60px;
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+details summary::-webkit-details-marker{
+    position: absolute;
+    right: -2px;
+    top: 28px;
+    transform: translate(0,-50%);
+}
+
+details table{
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(25,15,39);
+    width: 280px;
+    border: solid white 2px;
+    border-spacing: 0px;
+}
+
+details td{
+    border-bottom: solid white 2px;
+    text-align: center;
+    font-size: 38px;
+    
+}
+
+
+.bynk{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.help summary::-webkit-details-marker{
+    display: none;
+
+}
+
+.help table{
+    right: 20px;
+    top: 80px;
+
+}
+
+
+.question{
+
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trasig form{
+    background-color: unset;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+.trasig form select{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(25,15,39);
+    margin-top: 15%;
+    border-radius: 20px;
+    font-size: 30px;
+    padding-left: 10%;
+    border: solid white 3px;
+    box-shadow:4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10%;
+
+}
+
+.trasig form select::-webkit-select-marker{
+    display: none;
+
+}
+
+.trasig form label{
+    color: black;
+    font-size: 24px;
+}
+
+.trasig form input{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+
+.trasig .text{
+    height: 40%;
+
+}
+
+.trasig .skicka{
+    height:100%;
+    width: 280px;
+    background-color: rgb(208,7,142);
+    font-size: 24px;
+}
+
+.trasig{
+    position: absolute;
+    top: 120px;
+    height: 550px;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: white;
+    border-radius: 20px;
+    display: none;
+
+}
+ 
+.trasig .close i{
+    position: absolute;
+    left: 5%;
+    color: black;
+    top: 2%;
+   
+}
+
+.open{
+    display: block;
+
 }
 
 .wrapper{
@@ -52,7 +202,7 @@ figure img{
 
 .na{
     grid-area: na;
-    
+    position: relative;
 }
 
 ul{
@@ -91,6 +241,8 @@ li .bing {
     right: 5px;
     height: 10px;
     width: 50px;
+    background-color: rgb(25,15,39) ;
+    
     
 }
 
@@ -101,17 +253,22 @@ li .bon {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:rgb(25,15,39) ;
 }
 
 li .bonk {
     height: 100%;
-    width: 100%;
+    width: 280px;
     border: 5px solid white;
     border-radius: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:rgb(25,15,39) ;
 }
+
+
+
 
 a{
     text-decoration: none;
@@ -142,6 +299,7 @@ a{
     border-radius: 20px;
     right: 20px;
 }
+
 .g{
     background-color: green;
 }
@@ -149,7 +307,7 @@ a{
     background-color: red;
 }
 .o{
-    background-color: orange;
+    background-color: orangered;
 }
 .y{
     background-color: yellow;
@@ -170,6 +328,119 @@ a:active{
 
 
     
+@media screen and (min-width: 800px) {
+    body{
+        background-image: url("../img/Figma/maskeawsra.png");
+        background-color: rgb(25,15,39,);
+        background-blend-mode: initial;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: 100vw 177vh;
+        object-fit: cover;
     
+        
+        
+    }
+
+    figure img{
+
+        width: 30%;
+        margin-left: 35%;
+        margin-top: -2%;
+
+        
+    }
+    .trasig form{
+        background-color: unset;
+        height: 100%;
+        display: flex;
+        align-items: center; 
+        flex-direction: column;
+    
+    }
+    
+    .trasig form select{
+        width: 90%;
+        height: 40px;
+        background-color: rgb(25,15,39);
+        margin-top: 15%;
+        border-radius: 20px;
+        font-size: 30px;
+        padding-left: 10%;
+        border: solid white 3px;
+        box-shadow:4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-bottom: 10%;
+    
+    }
+    
+    .trasig form select::-webkit-select-marker{
+        display: none;
+    
+    }
+    
+    .trasig form label{
+        color: black;
+        font-size: 24px;
+    }
+    
+    .trasig form input{
+        width: 80%;
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 10%;
+        
+
+    }
+    
+
+    .trasig .text{
+        height: 40%;
+        
+    
+    }
+    
+    .trasig .skicka{
+        height:100%;
+        width: 280px;
+        background-color: rgb(208,7,142);
+        font-size: 24px;
+    }
+    
+    .trasig{
+        position: absolute;
+        top: 100px;
+        height: 700px;
+        width: 400px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        background-color: white;
+        border-radius: 20px;
+        display: none;
+    
+    }
+     
+    .trasig .close i{
+        position: absolute;
+        left: 5%;
+        color: black;
+        top: 2%;
+       
+    }
+    
+    .open{
+        display: block;
+    
+    }
+    
+
+
+
+
+
+
+
+    
+}    
 
 

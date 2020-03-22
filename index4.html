@@ -7,15 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hur man skapar en fin hemsida</title>
     <link rel="stylesheet" href="css/stylecheet.css">
+    <script src="https://kit.fontawesome.com/f6594b0afe.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <div class="wrapper">
         
         <header>
 
-            <div></div>
+            <a href="index.html"><div class="arrow"> <i class="fas fa-chevron-left fa-3x"> </i></div></a>
+
             
-            <div></div>
+
+            <details class="help"> <summary> <div class="question"> <i class="far fa-question-circle fa-3x"></i> </summary>
 
         </header>
 
@@ -28,9 +32,10 @@
             <ul>
                 <li class = "a">
                     <div class="bing"></div>
-                    <div class="bon">
-                    <a href="index2.html" >Trasig enhet</a>
+                    <div class="bon" id="Trasig">
+                        <p>Trasig enhet</p>
                     </div>
+
                 </li>
                 <li class = "a">
                     <div class="bing"></div>
@@ -47,7 +52,41 @@
                 </li>
                
             </ul>
+            <div class="trasig" id="trasigpopup">
+                <div class="close" id="close"><i class="far fa-times-circle fa-2x"></i></div>
+                <form action="">
+                    <select name="Välj enhet" id="enhet">
+                        <option value="Välj enhet" selected >Välj enhet</option>
+                        <option value="3D Printers">-3D Printers-</option>
+                        <option value="Alfa">Alfa</option>
+                        <option value="Beta">Beta</option>
+                        <option value="Gamma">Gamma</option>
+                        <option value="P1">P1</option>
+                        <option value="P2">P2</option>
+                        <option value="P3">P3</option>
+                        <option value="P4">P4</option>
+                        <option value="P5">P5</option>
+                        <option value="P6">P6</option>
+                        <option value="other">-other-</option>
+                        <option value="Laser">Laser</option>
+                        <option value="CNC">CNC</option>
+                        <option value="VR">VR</option>
+                      
+
+                    </select>
+                    <label for="namnochklass">Namn och klass</label>
+                    <input type="text" id="namnochklass" style="color: black;">
+                    <label for="beskriv">Beskriv felet i detalj</label>
+                    <input type="text" id="beskriv" class="text" style="color: black;">
+                    <a href="index6.html"> <input type="submit" value="Skicka" class="skicka"></a>
+
+                </form>
+
+
+                
+            </div>
         </nav>   
     </div>
+    <script src="js/Java.Js"></script>
 </body>
 </html>
