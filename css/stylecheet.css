@@ -326,6 +326,48 @@ a:active{
     color:white;
 }
 
+.text3{
+
+    font-size: 60px;
+    width: 50%;
+    height: auto;
+    background-color: rgb(23,23,46);
+    border-radius: 1px;
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+}
+
+.starttext{
+
+    font-size: 24px;
+    width: 70%;
+    height: auto;
+    background-color: rgb(23,23,46);
+    border-radius: 1px;
+    border-color: white;
+    border-style: solid;
+    padding: 1%;
+  
+
+    
+}
+
+.starttext1{
+
+    font-size: 24px;
+    width: 90%;
+    height: auto;
+    background-color: rgb(23,23,46);
+    border-radius: 1px;
+    border-color: white;
+    border-style: solid;
+    padding: 1%;
+    position: absolute;
+    bottom: 3%;
+
+    
+}
 
     
 @media screen and (min-width: 800px) {
@@ -428,21 +470,58 @@ a:active{
        
     }
     
+
+    
     .open{
         display: block;
     
     }
     
+    
 
 
+    .text3{
 
-.text3{
+        font-size: 60px;
+        width: 50%;
+        height: auto;
+        background-color: rgb(23,23,46);
+        border-radius: 1px;
+        border-color: white;
+        border-style: solid;
+        padding: 10px;
+    }
 
-    font-size: 60px;
-}
+    .starttext{
 
+        font-size: 36px;
+        width: 40%;
+        height: auto;
+        background-color: rgb(23,23,46);
+        border-radius: 1px;
+        border-color: white;
+        border-style: solid;
+        padding: 1%;
+    
 
+        
+    }
 
+    .starttext1{
+
+        font-size: 24px;
+        width: auto;
+        height: auto;
+        background-color: rgb(23,23,46);
+        border-radius: 1px;
+        border-color: white;
+        border-style: solid;
+        padding: 1%;
+        position: absolute;
+        bottom: 3%;
+
+        
+    }
     
 }    
 
